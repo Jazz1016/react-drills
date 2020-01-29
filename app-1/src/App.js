@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <input onChange={e => this.handleChange(e.target.value)} />
-        <p>{this.state.inputLine}</p>
+        <>{this.state.inputLine}</>
       </div>
     );
   }
