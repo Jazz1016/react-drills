@@ -20,6 +20,13 @@ class App extends Component {
     this.setState({ list: [...this.state.list, task] });
   }
 
+  // handlePopper() {
+  //   let popArr = [...this.state.list];
+  //   popArr.pop();
+  //   console.log(popArr);
+  //   return popArr;
+  // }
+
   render() {
     return (
       <div className="App">
